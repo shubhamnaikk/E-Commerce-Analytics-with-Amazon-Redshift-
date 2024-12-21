@@ -1,0 +1,19 @@
+{
+    "ClusterIdentifier": "ecomdatahw1",
+    "NodeType": "dc2.large",
+    "NumberOfNodes": 2,
+    "DBName": "ecomdatahw1",
+    "MasterUsername": "admin",
+    "MasterUserPassword": "YourSecurePassword123",
+    "ClusterType": "multi-node",
+    "PubliclyAccessible": true,
+    "VpcSecurityGroupIds": ["sg-12345678"],  // Replace with your actual Security Group ID
+    "Port": 5439,
+    "IamRoles": [
+      "arn:aws:iam::123456789012:role/YourRedshiftRole" // Replace with your IAM role ARN
+    ],
+    "ClusterSubnetGroupName": "default", // Adjust if using a specific subnet group
+    "AvailabilityZone": "us-east-1a", // Replace with your desired availability zone
+    "EnhancedVpcRouting": false
+  }
+  
