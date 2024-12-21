@@ -12,7 +12,7 @@ This project demonstrates the use of Amazon Redshift for analyzing e-commerce da
 ## Workflow Diagram
 Below is the workflow diagram of the project:
 
-![Workflow Diagram](diagram.png)
+![Workflow Diagram](Diagram.png)
 
 ## Key Steps
 
